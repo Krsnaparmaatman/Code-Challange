@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--suppress HtmlDeprecatedAttribute -->
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <title th:text="See Terminal for output">See Terminal for output</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>Error Message</td>
+        <td th:text="Hurraaaha">Hurrah</td>
+    </tr>
+    <tr>
+        <td>Status Code</td>
+        <td th:text="200">200</td>
+    </tr>
+    <tr>
+        <td>Exception</td>
+        <td th:text="exception">exception</td>
+    </tr>
+    <tr>
+        <td>Stacktrace</td>
+        <td><pre th:text="trace">trace</pre></td>
+    </tr>
+    <tr>
+        <td>Binding Errors</td>
+        <td th:text="errors">errors</td>
+    </tr>
+</table>
+</body>
+</html>

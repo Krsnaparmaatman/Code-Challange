@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.digitalturbine.CodeChallange.CodeChallangeApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-20T11:09:49" hostname="Krishnas-MacBook-Pro.local" time="0.723">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.digitalturbine.CodeChallange.CodeChallangeApplicationTests" time="0.723"/>
+  <system-out><![CDATA[13:09:49.200 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.digitalturbine.CodeChallange.CodeChallangeApplicationTests]: CodeChallangeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:09:49.245 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.digitalturbine.CodeChallange.CodeChallangeApplication for test class com.digitalturbine.CodeChallange.CodeChallangeApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2023-10-20T13:09:49.379+02:00  WARN 4916 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/krishnatejacheruku/.gradle/caches/modules-2/files-2.1/org.json/json/20210307/528c8df3757e8bcf151817b1d7b9b434f6aa08d5/json-20210307.jar!/org/json/JSONObject.class
+	jar:file:/Users/krishnatejacheruku/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-20T13:09:49.385+02:00  INFO 4916 --- [    Test worker] c.d.C.CodeChallangeApplicationTests      : Starting CodeChallangeApplicationTests using Java 17.0.9 with PID 4916 (started by krishnatejacheruku in /Users/krishnatejacheruku/Desktop/Code-Challange 22.02.14)
+2023-10-20T13:09:49.386+02:00  INFO 4916 --- [    Test worker] c.d.C.CodeChallangeApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-10-20T13:09:49.788+02:00  INFO 4916 --- [    Test worker] c.d.C.CodeChallangeApplicationTests      : Started CodeChallangeApplicationTests in 0.487 seconds (process running for 0.959)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
